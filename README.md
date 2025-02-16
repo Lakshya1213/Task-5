@@ -16,13 +16,12 @@ HOW TO USE THIS TOOL->
 
 2. Run the tool:
  ./convertor --help
-3.  Usage
+output=>  Usage
 The tool follows this syntax:
 ./convertor <option> <inputfile> <outputfile> 
 Options:
 --md2html → Convert Markdown to HTML
 --html2md → Convert HTML to Markdown
---help → Show help message
 3. Examples
 #Convert Markdown to HTML:
 ./convertor --md2html input.md output.html
@@ -30,8 +29,8 @@ Options:
 ./convertor --html2md input.html output.md
 #Show Help:
 ./convertor --help
-->Error Handling
-4.If you enter invalid arguments:
+5.Error Handling
+#If you enter invalid arguments:
 ./convertor --md2html input.md
 Output:
  showHelp();
