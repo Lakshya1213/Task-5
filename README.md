@@ -12,7 +12,7 @@ There are 7 files in makrdown convertrer project.
 HOW TO USE THIS TOOL->
 1. **Compile the program** using g++:
    ```sh
-   g++ cli.cpp -o convertor
+   g++ cli.cpp -o converter
 
 2. Run the tool:
  ./convertor --help
