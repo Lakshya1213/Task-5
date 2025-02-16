@@ -8,7 +8,7 @@ void showHelp() {
     cout << "Options:\n";
     cout << "  --md2html   Convert Markdown to HTML\n";
     cout << "  --html2md   Convert HTML to Markdown\n";
-    cout << "  --help      Show this help message\n";
+  //  cout << "  --help      Show this help message\n";
 }
 
 int main(int argc, char* argv[]) {
@@ -33,7 +33,7 @@ int main(int argc, char* argv[]) {
     } else if (option == "--html2md") {
         convertHtmlToMarkdown(inputFile, outputFile);
     } else {
-        cout << "Error: Invalid option!\n";
+      //  cout << "Error: Invalid option!\n";
         return 1;
     }
 
