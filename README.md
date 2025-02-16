@@ -39,3 +39,7 @@ Error: Invalid arguments!
 ./convertor --wrong input.md output.html
 Output:
 Error: Invalid option! 
+5. If input file doest not have..
+   ->Then output:
+   No data in input file.
+   
