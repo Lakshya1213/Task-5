@@ -34,11 +34,11 @@ Options:
 4.If you enter invalid arguments:
 ./convertor --md2html input.md
 Output:
-Error: Invalid arguments!
+ showHelp();
 #If you enter an invalid option:
 ./convertor --wrong input.md output.html
 Output:
-Error: Invalid option! 
+showHelp();
 5. If input file doest not have..
    ->Then output:
    No data in input file.
