@@ -12,7 +12,7 @@ void showHelp() {
 }
 
 int main(int argc, char* argv[]) {
-      showHelp(); // when you run code directly not in terminal show instruction 
+    //  showHelp(); // when you run code directly not in terminal show instruction 
       return 0;
      if (string(argv[1]) == "--help") { 
         showHelp();
@@ -20,11 +20,11 @@ int main(int argc, char* argv[]) {
     }
 
     if (argc != 4) {      
-        cout << "Error: Invalid arguments!\n";
+      //  cout << "Error: Invalid arguments!\n";
          showHelp();
     }
 
-    string option = argv[1]; // reads ./converter
+    string option = argv[1]; // reads function which will call
     string inputFile = argv[2]; // reads inputfile
     string outputFile = argv[3]; // reads outputfile
     
